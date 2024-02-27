@@ -9,7 +9,7 @@
 </head>
 
 <body class="bg-background flex flex-col items-center gap-10">
-  <nav class="flex text-text w-screen h-20 items-center justify-around">
+  <nav class="text-text w-screen h-20 items-center justify-around lg:flex hidden">
     <ul class="flex gap-4 items-center">
       <li class="mr-3 text-2xl">
         <svg width="152" height="115" viewBox="0 0 152 115" fill="none" xmlns="http://www.w3.org/2000/svg"
@@ -51,10 +51,10 @@
         <a href="/#" class="hover:bg-hover px-1 py-2 rounded-lg ease-linear duration-150">Clothing</a>
       </li>
     </ul>
-    <div class="w-72 bg-hover px-2 py-2 rounded-lg flex gap-2">
+    <div class="bg-hover px-2 py-2 rounded-lg flex gap-2 w-[20vw]">
       <input type="text" class="text-text h-full bg-transparent outline-none flex-1 text-xl" placeholder="Search..." />
     </div>
-    <ul class="flex gap-4 ml-[5%] items-center">
+    <ul class="flex gap-4 ml-[1%] items-center">
       <li>
         <a href="/#" class="hover:bg-hover px-1 py-2 rounded-lg ease-linear duration-150">Contact us</a>
       </li>
@@ -74,9 +74,9 @@
       <img src="assets/carousel/c1.jpg" alt="pink" class="rounded-lg" />
     </div>
   </section>
-  <section class="text-text flex flex-col items-center justify-center mt-32 w-screen bg-background-2 py-6">
-    <h1 class="text-8xl font-mono font-bold">New Shoe Arrivals</h1>
-    <ul class="flex ">
+  <section class="text-text flex flex-col items-center justify-center w-screen bg-background-2 py-6">
+    <h1 class="md:text-8xl text-4xl font-mono font-bold">New Shoe Arrivals</h1>
+    <ul class="grid grid-cols-responsive w-[90vw]">
       <li class="flex flex-col items-center gap-4">
         <img class="w-96" src="assets/arrivals/airforce1.png" alt="" />
         <h1 class="font-mono font-semibold">Nike Air Force 1</h1>
